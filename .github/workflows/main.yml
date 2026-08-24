@@ -16,7 +16,7 @@ jobs:
     - name: sw_vers
       run: sw_vers
     - name: Switch to Xcode 26
-      run: sudo xcode-select -s "/Applications/Xcode_26.4.app"
+      run: sudo xcode-select -s "/Applications/Xcode_26.6.app"
     - name: Show SDKs
       run: xcodebuild -showsdks
     - name: Build
